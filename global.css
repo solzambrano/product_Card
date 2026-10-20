@@ -2,14 +2,18 @@
   --green-500: hsl(158, 36%, 37%);
   --green-700: hsl(158, 42%, 18%);
   --black: hsl(212, 21%, 14%);
-  --grey: hsl(228, 12%, 48%);
+  --gray: hsl(228, 12%, 48%);
   --cream: hsl(30, 38%, 92%);
   --white: hsl(0, 0%, 100%);
 
-  --font-primary: "Montserrat", sans serif;
+  --font-heading: "Fraunces", serif;
+  --font-body: "Montserrat", sans serif;
 }
 
 body {
-  font-family: var(--font-primary);
+  font-family: var(--font-body);
   font-weight: 500;
+}
+.font-heading {
+  font-family: var(--font-heading);
 }
