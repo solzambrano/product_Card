@@ -16,9 +16,9 @@
     <title>Frontend Mentor | Product preview card component</title>
   </head>
   <body>
-    <main class="py-[150px] bg-[var(--cream)] h-[100vh]">
+    <main class="flex justify-center items-center bg-[var(--cream)] h-screen">
       <article
-        class="pb-8 rounded-2xl bg-[var(--white)] w-full max-w-[300px] mx-auto md:min-w-[700px] md:flex sm:pb-0">
+        class="pb-8 rounded-2xl bg-[var(--white)] w-full max-w-[300px] mx-auto md:max-w-[700px] md:flex sm:pb-0">
         <div
           class="h-[250px] bg-[url('./images/image-product-mobile.jpg')] bg-cover bg-center md:h-[500px] md:bg-[url('./images/image-product-desktop.jpg')] md:min-w-[350px]"></div>
         <section class="px-4 md:px-10">
@@ -41,10 +41,12 @@
           <span class="align-[8px] line-through text-[var(--gray)]">
             $169.99</span
           >
-          <footer
-            class="flex justify-center mt-6 rounded-xl gap-4 hover:bg-[var(--green-700)] bg-[var(--green-500)] py-4">
-            <img class="w-1/7 h-1/7" src="./images/icon-cart.svg" alt="" />
-            <button class="text-lg text-[var(--white)] font-bold">
+          <button
+            class="w-full flex justify-center items-center mt-6 rounded-xl gap-4 hover:bg-[var(--green-700)] bg-[var(--green-500)] py-4 text-lg text-[var(--white)] font-bol">
+            <img
+              class="size-4"
+              src="./images/icon-cart.svg"
+              alt="carro de compras" />
               Add to Cart
             </button>
           </footer>
